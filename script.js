@@ -12,7 +12,7 @@ const maxYesWidth = parseFloat(yesButtonStyle.maxWidth);
 
 const gifs = ["images/psyduck-cry.gif", "images/psyduck-cry.gif", "images/psyduck-cry.gif", "images/psyduck-cry.gif"];
 
-const buttonMessages = ["Tem certeza??", "POR FAVOR", "Não pode fazer isso comigo!"];
+const buttonMessages = ["You sure??", "PLEASE", "You can't do that to me!"];
 
 noButton.addEventListener("click", () => {
   if (noClicks < maxNoClicks) {
